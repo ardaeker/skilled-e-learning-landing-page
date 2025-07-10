@@ -24,6 +24,7 @@
 
   --color-gray-500: var(--color-gray-500);
 
+  --breakpoint-xs: 25rem;
   --breakpoint-xl: 73.75rem;
 }
 
