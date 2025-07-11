@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export function Header() {
   return (
-    <header className="px-5 py-4 md:px-11 md:py-6 xl:px-0">
+    <header className="relative z-20 px-5 py-4 md:px-11 md:py-6 xl:px-0">
       <div className="mx-auto flex w-full max-w-280 items-center justify-between">
         <Link href="/" className="relative inline-block h-5 w-20 xl:h-7 xl:w-28">
           <Image src="/logo-dark.svg" alt="Skilled homepage" sizes="100vw" fill />

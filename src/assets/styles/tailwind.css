@@ -9,6 +9,7 @@
 
   --color-gray-500: #83869a;
 
+  --color-gradient-blue: linear-gradient(180deg, #fff 0%, #f0f1ff 100%);
   --color-gradient-pink: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
   --color-gradient-purple: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
 }
@@ -35,6 +36,10 @@ body {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-gradient-blue {
+  background: var(--color-gradient-blue);
 }
 
 .bg-gradient-pink {

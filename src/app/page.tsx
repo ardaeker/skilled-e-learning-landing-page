@@ -6,7 +6,7 @@ import { PopularCourses } from "@/components/popular-courses";
 
 export default function Page() {
   return (
-    <div className="font-sans">
+    <div className="bg-gradient-blue relative overflow-hidden font-sans">
       <Header />
       <main className="min-h-screen">
         <Hero />
